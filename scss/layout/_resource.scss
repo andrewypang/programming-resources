@@ -1,0 +1,27 @@
+.resource {
+    width: 100%;
+    margin: 1rem 1rem;
+
+    &__logo {
+        width: 40px;
+        display: block;
+        margin-bottom: 1rem;
+
+        &--icon {
+            width: 100%;
+            font-size: 40px;
+            margin-bottom: 1rem;
+
+        }
+    }
+
+    &__link {
+        font-size: 1.8rem;
+        margin: 0 0 1rem 0;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        line-height: 1.8;
+    }
+}

@@ -1,0 +1,28 @@
+.group {
+    padding: 4rem;
+
+}
+
+main {
+    section:nth-child(odd){
+        background-color: #f9fafa;
+    }
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+}
+
+.vertical-line{
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    border-right: 2px solid white;
+    transform: translate(0%, -50%);
+}
+
+main {
+    .group:first-of-type {
+        padding-top: 10rem;
+    }
+}
